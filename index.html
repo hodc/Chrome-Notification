@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Title</title>
+		 
+		<link rel="manifest" href="manifest.json">
+		<script src="service-worker.js"></script>
+		<!-- <script>
+		if ('serviceWorker' in navigator) {
+		alert('serviceWorker');
+  navigator.serviceWorker.register("service-worker.js").then(function(pushSubscription) {
+    debugger;
+	console.log(pushSubscription.subscriptionId);
+        console.log(pushSubscription.endpoint);
+    if(pushSubscription.installing) {
+      console.log('Service worker installing');
+    } else if(pushSubscription.waiting) {
+      console.log('Service worker installed');
+    } else if(pushSubscription.active) {
+      console.log('Service worker active');
+    }
+    
+  }).catch(function(error) {
+    // registration failed
+    console.log('Registration failed with ' + error);
+  });
+};
+		</script> -->
+	</head> 
+	<body>
+		<button class="js-push-button" disabled> 
+			Enable Push Messages  
+		</button>
+	</body>
+	
+</html>
