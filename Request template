@@ -1,0 +1,12 @@
+first you have to create new project in google cloud,
+
+https://console.developers.google.com
+
+you must enable "Google Cloud Messaging for Chrome Api" under google Api's.
+
+you have to take keys from google project console to add them in http reqeusts:
+
+http request example to push notification:
+
+- reqeust: https://android.googleapis.com/gcm/send
+- payload: {"registration_ids":["APA91bEbF0wWDb-6XChxOKXaPovJUH8SoAnIBRUiseRS1iAP7jnCQrOUVutN9oI-VHCSl_3KhjCIm0pjN40dPFyuwXG5Fn5Bh7MEk6Z1r6une1Vbv1kXTWqyuYhuQwejYQC77qKvPT0DMX7c6BVE1oba7Tkh0923Zg"], "data":{"title":"asdf","data":123}}
